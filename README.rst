@@ -61,7 +61,7 @@ Hints
 -----
 
 You can use some of these snippets to wrap a text fragment with a tag. To do that select the text
-and choose *Wrap With Abbrebiation...* from *Zen Coding* menu. This works for tags which have an
+and choose *Wrap With Abbreviation...* from *Zen Coding* menu. This works for tags which have an
 ending tag, like ``{% if %} {% endif %}``.
 
 You can use the *Tab* key to move the cursor to next logical position. For example use the ``for``
