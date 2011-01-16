@@ -22,7 +22,7 @@ Installation
 Snippets list
 -------------
 =============== ============================================
- Abbrebiation                        Tag
+ Abbreviation                        Tag
 =============== ============================================
  autoescape      ``{% autoescape %} {% autoescape %}``
  block           ``{% block %} {% endblock %}``
