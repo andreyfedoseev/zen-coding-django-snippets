@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <templates>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% autoescape %} tag" enabled="true" name="autoescape">{% autoescape ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% autoescape %} tag" enabled="true" name="autoescape">{% autoescape ${cursor} %}
   ${cursor}${child}
 {% endautoescape %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% block %] tag" enabled="true" name="block">{% block ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% block %] tag" enabled="true" name="block">{% block ${cursor} %}
   ${cursor}${child}
 {% endblock %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% comment %} tag" enabled="true" name="comment">{% comment %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% comment %} tag" enabled="true" name="comment">{% comment %}
   ${cursor}${child}
 {% endcomment %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% csrf_token %} tag" enabled="true" name="csrf">{% csrf_token %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% csrf_token %} tag" enabled="true" name="csrf_token">{% csrf_token %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% cycle %} tag" enabled="true" name="cycle">{% cycle ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% debug %} tag" enabled="true" name="debug">{% debug %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% extends %} tag" enabled="true" name="ext">{% extends "${cursor}" %} </template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% extends %} tag" enabled="true" name="extends">{% extends "${cursor}" %} </template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% filter %} tag" enabled="true" name="filter">{% filter ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% csrf_token %} tag" enabled="true" name="csrf">{% csrf_token %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% csrf_token %} tag" enabled="true" name="csrf_token">{% csrf_token %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% cycle %} tag" enabled="true" name="cycle">{% cycle ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% debug %} tag" enabled="true" name="debug">{% debug %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% extends %} tag" enabled="true" name="ext">{% extends "${cursor}" %} </template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% extends %} tag" enabled="true" name="extends">{% extends "${cursor}" %} </template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% filter %} tag" enabled="true" name="filter">{% filter ${cursor} %}
   ${cursor}${child}
 {% endfilter %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% firstof %} tag" enabled="true" name="firstof">{% firstof ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% for %} tag" enabled="true" name="for">{% for ${cursor} in ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% firstof %} tag" enabled="true" name="firstof">{% firstof ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% for %} tag" enabled="true" name="for">{% for ${cursor} in ${cursor} %}
   ${cursor}${child}
 {% endfor %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% for %} {% empty %} tag" enabled="true" name="fore">{% for ${cursor} in ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% for %} {% empty %} tag" enabled="true" name="fore">{% for ${cursor} in ${cursor} %}
   ${cursor}${child}
 {% empty %}
   ${cursor}  
 {% endfor %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% if %} tag" enabled="true" name="if">{% if ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% if %} tag" enabled="true" name="if">{% if ${cursor} %}
   ${cursor}${child}
 {% endif %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% ifchanged %} tag" enabled="true" name="ifchanged">{% ifchanged ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% ifchanged %} tag" enabled="true" name="ifchanged">{% ifchanged ${cursor} %}
   ${cursor}${child}
 {% endifchanged %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% if %}{% else %} tag" enabled="true" name="ife">{% if ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% if %}{% else %} tag" enabled="true" name="ife">{% if ${cursor} %}
   ${cursor}${child}
 {% else %}
   ${cursor}
 {% endif %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% if %}{% else %} tag" enabled="true" name="ifelse">{% if ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% if %}{% else %} tag" enabled="true" name="ifelse">{% if ${cursor} %}
   ${cursor}${child}
 {% else %}
   ${cursor}
 {% endif %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% ifequal %} tag" enabled="true" name="ifeq">{% ifequal ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% ifequal %} tag" enabled="true" name="ifeq">{% ifequal ${cursor} %}
   ${cursor}${child}
 {% endifequal %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% ifequal %} tag" enabled="true" name="ifequal">{% ifequal ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% ifequal %} tag" enabled="true" name="ifequal">{% ifequal ${cursor} %}
   ${cursor}${child}
 {% endifequal %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% ifnotequal %} tag" enabled="true" name="ifnotequal">{% ifnotequal ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% ifnotequal %} tag" enabled="true" name="ifnotequal">{% ifnotequal ${cursor} %}
   ${cursor}${child}
 {% endifnotequal %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% include %} tag" enabled="true" name="inc">{% include "${cursor}" %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% include %} tag" enabled="true" name="include">{% include "${cursor}" %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% load %} tag" enabled="true" name="load">{% load ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% now %} tag" enabled="true" name="now">{% now "${cursor}" %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% regroup %} tag" enabled="true" name="regroup">{% regroup ${cursor} by ${cursor} as ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% spaceless %} tag" enabled="true" name="spaceless">{% spaceless %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% include %} tag" enabled="true" name="inc">{% include "${cursor}" %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% include %} tag" enabled="true" name="include">{% include "${cursor}" %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% load %} tag" enabled="true" name="load">{% load ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% now %} tag" enabled="true" name="now">{% now "${cursor}" %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% regroup %} tag" enabled="true" name="regroup">{% regroup ${cursor} by ${cursor} as ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% spaceless %} tag" enabled="true" name="spaceless">{% spaceless %}
   ${cursor}${child}
 {% endspaceless %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% ssi %} tag" enabled="true" name="ssi">{% ssi ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% templatetag %} tag" enabled="true" name="templatetag">{% templatetag ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% url %} tag" enabled="true" name="url">{% url ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% widthratio %} tag" enabled="true" name="widthratio">{% widthratio ${cursor} %}</template>
-  <template autoinsert="true" context="ru.zencoding.eclipse.templates.html" deleted="false" description="Django {% with %} tag" enabled="true" name="with">{% with ${cursor} as ${cursor} %}
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% ssi %} tag" enabled="true" name="ssi">{% ssi ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% templatetag %} tag" enabled="true" name="templatetag">{% templatetag ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% url %} tag" enabled="true" name="url">{% url ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% widthratio %} tag" enabled="true" name="widthratio">{% widthratio ${cursor} %}</template>
+  <template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Django {% with %} tag" enabled="true" name="with">{% with ${cursor} as ${cursor} %}
   ${cursor}${child}
 {% endwith %}</template>
 </templates>
